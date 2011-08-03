@@ -1,0 +1,39 @@
+GIT
+  remote: git://github.com/onethirtyfive/grape.git
+  revision: a0da1d66179aa129a51e0f72be275e0d1836efd3
+  branch: a0da1d6
+  specs:
+    grape (0.1.5)
+      multi_json
+      multi_xml
+      rack
+      rack-jsonp
+      rack-mount
+      tilt
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
+    i18n (0.6.0)
+    multi_json (1.0.3)
+    multi_xml (0.2.2)
+    rabl (0.3.0)
+      multi_json (~> 1.0.3)
+    rack (1.3.2)
+    rack-jsonp (1.2.0)
+      rack
+    rack-mount (0.8.1)
+      rack (>= 1.0.0)
+    tilt (1.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active_support
+  grape!
+  i18n
+  rabl
